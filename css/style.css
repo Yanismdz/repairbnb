@@ -1,0 +1,282 @@
+*
+{
+    box-sizing:border-box;    
+}
+/* ------------------font face------------------ */
+@font-face {
+    font-family: 'nevis';
+    src: url('../fonts/nevis-webfont.woff2') format('woff2'),
+    url('../fonts/nevis-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* ----------------------navbar--------------------- */
+#logo
+{
+    height:75px;
+    margin-right:auto;
+    padding:0 19px;
+}
+
+.navbar
+{
+    display:flex;
+    padding:0;
+}
+.host
+{
+    width:86px;
+    padding:4px 12px;
+    margin:auto;
+    border:solid 2px white;
+    border-radius:4px;
+}
+
+a
+{
+    color:white;
+    text-align:center;
+    padding:0 19px; 
+    height:75px;
+    line-height:75px;
+    background-color:transparent;
+}
+
+a:hover
+{
+    text-decoration:none;
+    color:white;
+}
+
+.hote
+{
+    width:158px;
+}
+
+.aide
+{
+    width:74px;
+}
+
+.inscription
+{
+    width:104px;   
+}
+
+.connexion
+{
+    width:104px;
+}
+
+header
+{
+    padding:0;
+    height:75px;
+}
+/* background video */
+#bgvid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-color:orange;
+    background-size: cover;
+}
+
+/* jummbtron */
+.jumbotron
+{
+    background-color:transparent;
+    color:white;
+    text-align:center;
+    font-family:'nevis';
+    font-weight:700;
+    font-size:14px;
+}
+
+.display-3
+{
+    font-size:60px;
+}
+
+
+/* searchbar */
+.form-control,
+.btn,
+.arrow
+{
+    height:40px;
+}
+
+.input-bar
+{
+    background-color:rgba(0,0,0,0.6);
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.form-inline
+{
+    width:auto;
+    padding-left:15%;    
+    margin:auto;
+}
+
+.date1,
+.date2
+{
+    border-radius:0;
+}
+
+.recherche
+{
+    background-color:rgb(255, 90, 95);
+    color:white;
+    border:1px solid rgb(255, 90, 95);
+}
+
+.arrow
+{
+    margin-right:-4px;
+}
+
+.date2
+{
+    border-left:transparent;
+}
+
+.date1
+{
+    border-right:transparent;
+}
+.form-control
+{
+    margin-right:-8px;
+}
+
+/* -----------Second section----------- */
+
+.section2
+{
+    background-color:#EDEFED;
+    display:flex;
+}
+
+.article1
+{
+    background-color:white;
+    width:65%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.article1p
+{
+    padding-right:10px;
+}
+
+.card1
+{
+    padding-right:40px;
+    padding-left:20px;
+    flex-grow:1;
+    height:100%;
+    border:transparent;
+    border-radius:0;
+}
+
+h3
+{
+    padding-top:60px;
+    font-weight:bold;
+}
+
+.btn1
+{
+    background-color:#007A87;
+    font-weight:bold;
+    border-radius:1px;
+}
+
+/* -------------Section 3------------ */
+
+.section3
+{
+    background-color:#EDEFED;
+    text-align:center;
+}
+
+.semijumbo
+{
+    font-weight:bold;
+}
+
+/* ---------------Section 4------------ */
+
+.section4
+{
+    background-color:#EDEFED;
+    
+}
+
+.img-list
+{
+    width:65%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;    
+}
+
+
+.img-list img
+{
+    height:350px;
+    margin-right:20px;
+}
+
+@media screen and (max-width:1507px)
+{
+    .img-list
+    {
+	justify-content:center;
+    }
+    .img-list img
+    {
+	flex-grow:1;	
+    }
+}
+/* ----------------Button--------------- */
+
+.section6
+{
+    background-color:#EDEFED;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.button
+{
+    padding-left:27px;
+    padding-right:27px;
+    font-weight:bold;
+    width:316px;
+    height:42px;
+    line-height:42px;
+    border:#c4c4c4 1px solid;
+    margin:auto;
+    background-color:white;
+    display:block;
+    color:#484848;
+}
+
+.button:hover
+{
+    color:#484848;
+    border:#484848 solid 1px;
+}
