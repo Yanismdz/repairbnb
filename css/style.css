@@ -2,7 +2,9 @@
 {
     box-sizing:border-box;    
 }
+
 /* ------------------font face------------------ */
+
 @font-face {
     font-family: 'nevis';
     src: url('../fonts/nevis-webfont.woff2') format('woff2'),
@@ -11,7 +13,9 @@
     font-style: normal;
 
 }
+
 /* ----------------------navbar--------------------- */
+
 #logo
 {
     height:75px;
@@ -24,20 +28,24 @@
     display:flex;
     padding:0;
 }
+
 .host
 {
     width:86px;
     padding:4px 12px;
     margin:auto;
     border:solid 2px white;
-    border-radius:4px;
 }
 
-a
+.host:hover
+	  {
+	      background-color:rgba(0,0,0,.6);
+	  }
+header a
 {
     color:white;
     text-align:center;
-    padding:0 19px; 
+    padding:0 19px;
     height:75px;
     line-height:75px;
     background-color:transparent;
@@ -74,7 +82,9 @@ header
     padding:0;
     height:75px;
 }
+
 /* background video */
+
 #bgvid {
     position: fixed;
     right: 0;
@@ -89,6 +99,7 @@ header
 }
 
 /* jummbtron */
+
 .jumbotron
 {
     background-color:transparent;
@@ -106,6 +117,7 @@ header
 
 
 /* searchbar */
+
 .form-control,
 .btn,
 .arrow
@@ -163,14 +175,14 @@ header
 
 .section2
 {
-    background-color:#EDEFED;
+    
     display:flex;
 }
 
 .article1
 {
     background-color:white;
-    width:65%;
+    max-width:65%;
     display:flex;
     justify-content:space-between;
 }
@@ -205,9 +217,9 @@ h3
 
 /* -------------Section 3------------ */
 
-.section3
+.semititle
 {
-    background-color:#EDEFED;
+    
     text-align:center;
 }
 
@@ -220,13 +232,13 @@ h3
 
 .section4
 {
-    background-color:#EDEFED;
+    
     
 }
 
 .img-list
 {
-    width:65%;
+    max-width:65%;
     margin:auto;
     display:flex;
     justify-content:space-between;
@@ -251,11 +263,12 @@ h3
 	flex-grow:1;	
     }
 }
+
 /* ----------------Button--------------- */
 
 .section6
 {
-    background-color:#EDEFED;
+    
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -279,4 +292,171 @@ h3
 {
     color:#484848;
     border:#484848 solid 1px;
+}
+
+/* ------------section 7------------ */
+
+.section7
+{
+    
+}
+
+.article3
+{
+    max-width:65%;
+    margin: auto;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.article3 img
+{
+    margin-right:15px;
+    margin-bottom:15px;
+    flex-grow:1;
+}
+
+.bigimg
+{
+    flex-grow:2;    
+}
+
+/* -----------section 8------------ */
+
+.section8
+{
+    
+}
+
+.carousel-item img
+{
+    width:100%;
+}
+
+.left,
+.right
+    {
+	height:100%;
+    }
+
+.carousel-caption
+{
+    position:absolute;
+    top:30%;
+    margin:0;
+}
+
+.carousel-title
+{
+    font-weight:bold;
+    font-size:70px;
+}
+
+.carousel-text
+{
+    font-weight:bold;
+    font-size:20px;   
+}
+
+/* ----------------section 8 community--------------- */
+
+.section8
+{    
+    
+    padding:0;
+}
+
+.articlef
+{
+    max-width:87%;
+    margin:auto;
+    padding:0;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.articlef img
+{
+    flex-grow:1;
+    margin-right:15px;
+}
+
+/* -------------footer------------ */
+
+footer
+{
+    background-color:#2B2D2E;    
+}
+
+.sectionf
+{
+    max-width:80%;
+    margin:auto;
+    display:flex;
+    padding-top:50px;
+}
+
+.button-2
+{    
+    margin:auto;
+    margin-top:0;    
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+.footer-list
+{
+    list-style:none;
+    margin-left:0px;
+    padding-left:0px;
+    max-width:200px;
+    padding-right:15px;
+}
+
+.footer-list a
+{
+    font-weight:bold;
+}
+
+.footer-list a,
+.list1 h3,
+.list2 h3,
+.list3 h3
+
+{
+    color:white;
+}
+
+.list1 h3,
+.list2 h3,
+.list3 h3
+ {
+     padding-top:0;
+ }
+
+.footer-list a:hover
+{
+    color:#bbb;   
+}
+
+.button-2 .btn-group
+{
+    width:300px;
+    height:80px;
+}
+
+.button-2 .btn-group button
+{
+    height:60px;
+    background-color:#484848;
+    border:transparent;
+    color:white;
+}
+
+.bgwhite
+{
+    background-color:#EDEFED;
 }
