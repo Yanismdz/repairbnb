@@ -16,6 +16,11 @@
 
 /* ----------------------navbar--------------------- */
 
+#logom
+{
+    display:none;
+}
+
 #logo
 {
     height:75px;
@@ -459,4 +464,59 @@ footer
 .bgwhite
 {
     background-color:#EDEFED;
+}
+
+
+@media screen and (max-width:595px)
+{
+    #logo,
+    .hote,
+    .aide,
+    .inscription,
+    .connexion
+     {
+	 display:none;
+     }
+
+    #logom
+    {
+	display:block;
+	margin:auto;
+    }
+
+    .navbar
+    {
+	background-color:white;
+    }
+}
+
+@media screen and (max-width:1128px)
+{
+    .date1,
+    .date2,
+    .arrow
+     {
+	 display:none !important;
+     }
+
+    .search
+    {
+	width:80% !important;
+    }
+
+    .article1p,
+    .bigimg
+	{
+	    max-width:100%;
+	}
+    
+    .article1
+    {
+	flex-wrap:wrap;
+    }
+
+    .sectionf
+    {
+	flex-wrap:wrap;
+    }
 }
