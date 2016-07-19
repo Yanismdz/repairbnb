@@ -180,7 +180,6 @@ header
 
 .section2
 {
-    
     display:flex;
 }
 
@@ -235,12 +234,6 @@ h3
 
 /* ---------------Section 4------------ */
 
-.section4
-{
-    
-    
-}
-
 .img-list
 {
     max-width:65%;
@@ -273,7 +266,6 @@ h3
 
 .section6
 {
-    
     padding-top:50px;
     padding-bottom:50px;
 }
@@ -301,11 +293,6 @@ h3
 
 /* ------------section 7------------ */
 
-.section7
-{
-    
-}
-
 .article3
 {
     max-width:65%;
@@ -328,11 +315,6 @@ h3
 }
 
 /* -----------section 8------------ */
-
-.section8
-{
-    
-}
 
 .carousel-item img
 {
@@ -367,8 +349,7 @@ h3
 /* ----------------section 8 community--------------- */
 
 .section8
-{    
-    
+{
     padding:0;
 }
 
@@ -409,8 +390,6 @@ footer
     display:flex;
     flex-direction:column;
 }
-
-
 
 .footer-list
 {
